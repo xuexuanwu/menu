@@ -1,0 +1,32 @@
+h3 {
+  margin-left: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 3rem;
+}
+
+ul {
+  width: 30%;
+  margin-left: 2rem;
+}
+
+li:hover {
+  display: inline-block;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.item {
+  width: 60%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
